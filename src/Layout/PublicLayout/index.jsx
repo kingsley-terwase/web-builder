@@ -27,6 +27,7 @@ function PublicLayout({ children }) {
           sx={{
             width: '100%',
             mx: 'auto',
+            pl:4,
             bgcolor: isEditorRoute ? '#E5E5E5' : '#000',
             boxSizing: 'border-box',
             transition: 'background-color 0.3s ease',

@@ -39,6 +39,7 @@ const PropertiesSidebar = ({ open, onClose }) => {
                 flexShrink: 0,
                 '& .MuiDrawer-paper': {
                     width: 320,
+                    borderRadius:0,
                     boxSizing: 'border-box',
                     bgcolor: theme.palette.background.paper,
                     borderLeft: `1px solid ${theme.palette.divider}`,
